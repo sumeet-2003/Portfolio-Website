@@ -231,8 +231,9 @@ button {
 .header_section {
     width: 100%;
     float: left;
-    background-image: url(../images/head-bg.png);
-    height: auto;
+    /* background-color: black; */
+    background-image: url(../images/head-bg.jpeg);
+    height: 650px;
     background-size: 100%;
     padding: 0px 0px 20px 0px;
 }
@@ -831,7 +832,7 @@ button {
 .footer_section {
     width: 100%;
     float: left;
-    background-image: url(../images/foot-bg.png);
+    background-image: url(../images/foot-bg.jpeg);
     height: auto;
     padding-top: 250px;
     background-size: 100% 100%;
@@ -959,4 +960,49 @@ button {
     height: 8rem;
     width: 8rem;
     border-radius: 10px;
+}
+.patel-1{
+    height: 130px;
+    width: 180px;
+    position: absolute;
+    right: 0;
+    background-color: #f72545;
+    color: black;
+    border-radius: 0 50px 0 50px;
+    box-shadow: #848484 -10px -10px 10px 5px;
+}
+.patel-2{
+    height: 130px;
+    width: 180px;
+    background-color: #9900ff;
+    color: black;
+    border-radius: 50px 0 50px 0;
+    box-shadow: #848484 10px -10px 10px 5px;
+}
+.patel-3{
+    height: 130px;
+    width: 180px;
+    position: absolute;
+    right: 0;
+    background-color: #0b38fe;
+    color: black;
+    border-radius: 50px 0 50px 0;
+    box-shadow: #858585 -10px 10px 10px 5px;
+}
+.patel-4{
+    height: 130px;
+    width: 180px;
+    background-color: #00c3ff   ;
+    color: black;
+    border-radius: 0 50px 0 50px;
+    box-shadow: #848484 10px 10px 10px 5px;
+}
+.patel-1::hover{
+    background-color: #868686;
+    color: rgb(0, 0, 0);
+}
+.pro{
+    font-size: large;
+    color: white;
+    font-weight: bold;
 }
