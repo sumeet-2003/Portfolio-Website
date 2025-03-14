@@ -629,9 +629,9 @@
         margin: 0 auto;
     }
     .footer_section {
-        background-image: url(../images/foot-bg-ph.png);
+        background-color: #000d10;
         background-size: cover;
-        padding: 50px 0px;
+        padding: 5px 0px;
     }
     .input_btn_main {
         width: 100%;
